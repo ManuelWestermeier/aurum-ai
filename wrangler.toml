@@ -1,0 +1,10 @@
+name = "aurum-ai"
+compatibility_date = "2024-09-23"
+pages_build_output_dir = "dist"
+
+# Secrets set via dashboard or wrangler CLI:
+# wrangler pages secret put GROQ_API_KEY
+
+[vars]
+# Public vars (non-secret) go here
+APP_NAME = "Aurum AI"
